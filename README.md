@@ -28,7 +28,7 @@ This is the DegenToken smart contract for Degen Gaming on the Avalanche blockcha
 2. Clone the repository
 git clone <repository-url>
 cd <folder-name>
-3. In the `hardhat.config.js` file, paste your wallet's private key inside `accounts:[""]`.
+3. In the `hardhat.config.js` file, paste your wallet's private key inside `accounts:[""]`. Note that you will only use this for yourself, you can also opt to use a .env file.
 4. In your terminal, run these commands:
    ```
    npm install --save-dev hardhat
